@@ -1,11 +1,13 @@
 
 body {
     background-color: #3d3d3d;
+    background-image: url("https://wallpaperaccess.com/full/313268.jpg");     
+    background-size: cover;
 }
 
 .box1{
 
-    margin: 200 auto;
+    margin: 100 auto;
     width: 350px;
     height: 500px;
     background-color: #1b7fde;
@@ -19,18 +21,13 @@ table.variables  {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
-  
-     
 
 }
 
-table.variables   th {
+table.variables th {
     font-size: 2em;
     color: #ccc; 
-    text-align: center;
-
-   
-
+    text-align:center;
 }
 
 table.variables  td {
