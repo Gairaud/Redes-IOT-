@@ -1,0 +1,45 @@
+
+body {
+    background-color: #3d3d3d;
+}
+
+.box1{
+
+    margin: 200 auto;
+    width: 350px;
+    height: 500px;
+    background-color: #1b7fde;
+    border-radius: 3px;
+  
+    
+    
+}
+
+table.variables  {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  
+     
+
+}
+
+table.variables   th {
+    font-size: 2em;
+    color: #ccc; 
+    text-align: center;
+
+   
+
+}
+
+table.variables  td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  font-size: 1.2em;
+  color: #ccc; 
+  border-collapse: collapse;
+  
+}
+
