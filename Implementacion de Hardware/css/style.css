@@ -12,9 +12,7 @@ body {
     height: 500px;
     background-color: #1b7fde;
     border-radius: 3px;
-  
-    
-    
+
 }
 
 table.variables  {
@@ -38,5 +36,32 @@ table.variables  td {
   color: #ccc; 
   border-collapse: collapse;
   
+}
+
+.tag{
+    color: #ccc; 
+    font-size:1.2em;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    display:inline-block;
+}
+
+.icon{
+    padding: 8px;
+    font-size: 1.2em;
+    color: #ccc; 
+    border-collapse: collapse;
+    display:inline-block;
+}
+
+.card-header.collapsed {
+    color:#ccc;
+}
+.card-header:not(.collapsed) {
+    color:white;
+}
+
+.card a{
+    color:white;
 }
 

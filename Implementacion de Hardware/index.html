@@ -5,15 +5,61 @@
         
         <script src="https://kit.fontawesome.com/a4b6493ed0.js" crossorigin="anonymous"></script>
         <title>IOT</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h3 style="color: #ccc;">Tema: Implementación de Hardware</h1>
         <div class = "box1">
             <table class="variables">
                 <thead><h1 style="font-size: 2c;color: #ccc;text-align:center;">Variables</h1></thead>
                 <tbody id="variablesList">
-                    <tr><td>Variable de disponibilidad</td><td><i class="fas fa-play"></i></td><td><i class="fas fa-info-circle"></i></td></tr>
-                    <tr><td>Variable de funcionabilidad</td><td><i class="fas fa-play"></i></td><td><i class="fas fa-info-circle"></i></td></tr>
+                    <tr>
+                        <td>
+                            <div class="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            <div class="tag">Variable de Disponibilidad</div><div class="icon"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </div></button>
+                                      </div>
+                                      <div id="collapseOne" class="panel-collapse collapse" aria-labelledby="headingOne">
+                                        <div class="card-body">
+                                          <ul>
+                                              <li><a href ="">Etiquetas RFID</a></li>
+                                              <li><a href ="">Lector de RFID</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <td>
+                        <div class="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+                                        <div class="tag">Variable de Funcionalidad</div><div class="icon"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </div></button>
+                                  </div>
+                                  <div id="collapseTwo" class="panel-collapse collapse" aria-labelledby="headingOne">
+                                    <div class="card-body">
+                                      <ul>
+                                          <li><a href ="">Identificador de Componente</a></li>
+                                          <li><a href ="">Sensor Verificador de Componentes Instalados</a></li>
+                                          <li><a href ="">Brazo Robot</a></li>
+                                          <li><a href ="">Sensor Verificador de Componentes Pintados/Estilizados</a></li>
+                                          
+                                      </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    </tbody>
+
                 </tbody>
               
             </table>
