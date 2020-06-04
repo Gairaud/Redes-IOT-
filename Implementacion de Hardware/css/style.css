@@ -65,3 +65,10 @@ table.variables  td {
     color:white;
 }
 
+.btn-Home {
+    background-color: rgb(21, 255, 0);
+    color:black;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
