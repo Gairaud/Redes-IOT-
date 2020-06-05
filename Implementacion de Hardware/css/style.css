@@ -8,7 +8,7 @@ body {
 .box1{
 
     margin: 100 auto;
-    width: 350px;
+    width: 500px;
     height: 500px;
     background-color: #1b7fde;
     border-radius: 3px;
@@ -66,8 +66,8 @@ table.variables  td {
 }
 
 .btn-Home {
-    background-color: rgb(21, 255, 0);
-    color:black;
+    background-color:black;
+    color:white;
     padding: 15px 32px;
     font-size: 16px;
     font-weight: bold;

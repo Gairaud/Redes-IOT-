@@ -22,6 +22,27 @@
                             <div class="accordion">
                                 <div class="card">
                                     <div class="card-header" id="headingOne">
+                                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseGeneral" aria-expanded="false" aria-controls="collapseOne">
+                                            <div class="tag">Sobre el Tema: Implementación de Hardware</div><div class="icon"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </div></button>
+                                      </div>
+                                      <div id="collapseGeneral" class="panel-collapse collapse" aria-labelledby="headingOne">
+                                        <div class="card-body">
+                                          <p style="color:black;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                          </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
                                           <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             <div class="tag">Variable de Disponibilidad</div><div class="icon"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </div></button>
                                       </div>
@@ -42,16 +63,14 @@
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
-                                        <div class="tag">Variable de Funcionalidad</div><div class="icon"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </div></button>
+                                        <div class="tag">Variable de Funcionalidad/Brazo Robot</div><div class="icon"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </div></button>
                                   </div>
                                   <div id="collapseTwo" class="panel-collapse collapse" aria-labelledby="headingOne">
                                     <div class="card-body">
                                       <ul>
-                                          <li><a href ="">Identificador de Componente</a></li>
-                                          <li><a href ="">Sensor Verificador de Componentes Instalados</a></li>
-                                          <li><a href ="">Brazo Robot</a></li>
-                                          <li><a href ="">Sensor Verificador de Componentes Pintados/Estilizados</a></li>
-                                          
+                                          <li><a href ="VariableSistemaIndicaSiguiente.html">Obtener Siguiente Componente del Sistema</a></li>
+                                          <li><a href ="VariableRobotSeleccionaComponente.html">Sensor Verificador de Componentes Instalados</a></li>
+                                          <li><a href ="VariablePintura.html">Sensor Verificador de Componentes Pintados/Estilizados</a></li>
                                       </ul>
                                     </div>
                                 </div>
@@ -59,10 +78,15 @@
                         </div>
                     </td>
                     </tbody>
-
-                </tbody>
-              
             </table>
         </div>
+        <div style="text-align:center; width:100%;">
+            <button class="btn-Home" id="topologiaGeneral">Ver Topología General</button>
+        </div>
+
+        <script>
+            document.getElementById("topologiaGeneral").onclick=function () {location.href = "TopologiaGeneral.html";};
+        </script>
+
     </body>
 </html>
