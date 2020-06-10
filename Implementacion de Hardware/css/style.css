@@ -1,4 +1,3 @@
-
 body {
     background-color: #3d3d3d;
     background-image: url("https://wallpaperaccess.com/full/313268.jpg");     
@@ -6,13 +5,11 @@ body {
 }
 
 .box1{
-
     margin: 100 auto;
     width: 500px;
-    height: 500px;
+    height: 750px;
     background-color: #1b7fde;
     border-radius: 3px;
-
 }
 
 table.variables  {
